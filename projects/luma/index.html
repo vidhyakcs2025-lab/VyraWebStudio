@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMA Coffee & Kitchen | Specialty Roastery & Artisanal Brunch</title>
+  <meta name="description" content="LUMA Coffee & Kitchen is a specialty roastery and artisanal brunch kitchen in Chennai. Single-origin roasts, wild sourdough, and slow mornings.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- VYRA Studio Showcase Banner -->
+  <aside class="vyra-showcase-bar" aria-label="Showcase information">
+    <div class="vyra-bar-container">
+      <span class="vyra-badge">VYRA SHOWCASE PROJECT</span>
+      <span class="vyra-bar-text">A complete working cafe website designed & developed by <strong>VYRA Web Studio</strong></span>
+      <a href="../../index.html" class="vyra-back-btn" id="vyraBackLink">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Back to VYRA Studio
+      </a>
+    </div>
+  </aside>
+
+  <!-- Navigation -->
+  <header class="site-header" id="mainHeader">
+    <div class="nav-container">
+      <a href="#" class="brand-logo" aria-label="LUMA Home">
+        <span class="brand-name">LUMA</span>
+        <span class="brand-sub">COFFEE & KITCHEN</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main menu">
+        <a href="#about" class="nav-link">Our Story</a>
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#featured" class="nav-link">Signatures</a>
+        <a href="#gallery" class="nav-link">The Space</a>
+        <a href="#visit" class="nav-link">Hours & Location</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-reserve" id="openReserveModalBtn">Reserve a Table</button>
+        <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-menu-drawer" id="mobileDrawer">
+      <nav class="mobile-nav-links">
+        <a href="#about" class="mobile-link">Our Story</a>
+        <a href="#menu" class="mobile-link">Menu</a>
+        <a href="#featured" class="mobile-link">Signatures</a>
+        <a href="#gallery" class="mobile-link">The Space</a>
+        <a href="#visit" class="mobile-link">Hours & Location</a>
+      </nav>
+      <button class="btn btn-reserve full-width" id="mobileReserveBtn">Reserve a Table</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-backdrop">
+        <img src="assets/hero.jpg" alt="Warm artisanal interior of LUMA Coffee & Kitchen" class="hero-bg-img">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-pill">
+          <span class="status-dot"></span>
+          <span>Open Daily • 7:30 AM — 10:00 PM</span>
+        </div>
+        <h1 class="hero-title">Slow Mornings.<br><em>Honest Roasts.</em></h1>
+        <p class="hero-lead">
+          Artisanal single-origin coffee roasted in small batches, naturally fermented sourdough bakery, and seasonal kitchen plates in the heart of Chennai.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#menu" class="btn btn-primary">Explore The Menu</a>
+          <button class="btn btn-secondary" id="heroReserveBtn">Reserve a Table</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Info Bar -->
+    <section class="quick-strip">
+      <div class="strip-container">
+        <div class="strip-item">
+          <span class="strip-icon">☕</span>
+          <div>
+            <strong>In-House Roastery</strong>
+            <p>Single-estate beans from Chikmagalur & Yirgacheffe</p>
+          </div>
+        </div>
+        <div class="strip-divider"></div>
+        <div class="strip-item">
+          <span class="strip-icon">🥖</span>
+          <div>
+            <strong>Wild Sourdough</strong>
+            <p>Slow-fermented for 36 hours every morning</p>
+          </div>
+        </div>
+        <div class="strip-divider"></div>
+        <div class="strip-item">
+          <span class="strip-icon">🌿</span>
+          <div>
+            <strong>Seasonal Kitchen</strong>
+            <p>Organic produce sourced directly from Tamil Nadu farms</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story / About Section -->
+    <section class="about-section" id="about">
+      <div class="container section-grid">
+        <div class="about-visual">
+          <div class="image-frame main-frame">
+            <img src="assets/hero.jpg" alt="LUMA barista brewing coffee" loading="lazy">
+          </div>
+          <div class="floating-stat-card">
+            <span class="stat-number">36h</span>
+            <span class="stat-label">Fermentation cycle for our artisan bread</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <span class="section-tag">OUR CRAFT</span>
+          <h2 class="section-title">Rooted in intention, poured with passion.</h2>
+          <p class="section-body">
+            LUMA was born out of a simple ritual: the pause between the morning rush. We believe that true coffee craft requires patience — from our direct farmer partnerships in Karnataka and Ethiopia to our custom profile roasts.
+          </p>
+          <p class="section-body">
+            Every pastry is baked before sunrise. Every cup is dialed in with precise water mineral chemistry. LUMA is your quiet neighborhood sanctuary for thoughtful conversations, quiet work sessions, and nourishing meals.
+          </p>
+          <div class="about-points">
+            <div class="point-row">
+              <span class="check-circle">✓</span>
+              <span>100% Arabica micro-lots scored 86+ Specialty Coffee Association</span>
+            </div>
+            <div class="point-row">
+              <span class="check-circle">✓</span>
+              <span>Oat, almond, and dairy options steamed to silky microfoam</span>
+            </div>
+            <div class="point-row">
+              <span class="check-circle">✓</span>
+              <span>Dog-friendly sunlit veranda & high-speed workstation tables</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Signatures -->
+    <section class="featured-section" id="featured">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="section-tag">SIGNATURE CREATIONS</span>
+          <h2 class="section-title">Dishes & Brews That Define LUMA</h2>
+          <p class="section-sub">Carefully curated recipes crafted from wholesome, unhurried ingredients.</p>
+        </div>
+
+        <div class="featured-grid">
+          <!-- Item 1 -->
+          <article class="featured-card">
+            <div class="card-media">
+              <img src="assets/dish.jpg" alt="Avocado sourdough brunch toast" loading="lazy">
+              <span class="tag-badge">Brunch Classic</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="card-title">Poached Egg & Avocado Tartine</h3>
+                <span class="card-price">₹420</span>
+              </div>
+              <p class="card-desc">Charred 36-hour wild sourdough, smashed Hass avocado, free-range poached organic eggs, chili crunch, toasted pepitas & fresh micro-coriander.</p>
+              <div class="card-meta">
+                <span class="diet-badge">Vegetarian</span>
+                <span class="origin-badge">Signature</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 2 -->
+          <article class="featured-card">
+            <div class="card-media">
+              <img src="assets/bakery.jpg" alt="Artisan almond croissants and cinnamon cardamom buns" loading="lazy">
+              <span class="tag-badge">Fresh at 8:00 AM</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="card-title">Cardamom Morning Bun & Croissants</h3>
+                <span class="card-price">₹280</span>
+              </div>
+              <p class="card-desc">Laminated French butter dough twisted with freshly ground Idukki cardamom, rolled in vanilla bean sugar with an irresistible caramelized base.</p>
+              <div class="card-meta">
+                <span class="diet-badge">Bakery Fresh</span>
+                <span class="origin-badge">Limited Batch</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 3 -->
+          <article class="featured-card">
+            <div class="card-media">
+              <img src="assets/hero.jpg" alt="Specialty espresso coffee brewing" loading="lazy">
+              <span class="tag-badge">Single Estate</span>
+            </div>
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="card-title">Tonic Cold Brew & Cortado</h3>
+                <span class="card-price">₹260</span>
+              </div>
+              <p class="card-desc">20-hour steeped slow cold drip infused with botanical tonic water and candied orange peel, or velvety double ristretto cut 1:1 with warm textured milk.</p>
+              <div class="card-meta">
+                <span class="diet-badge">Beverage</span>
+                <span class="origin-badge">House Blend</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Menu -->
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="section-tag">ALL-DAY REFRESHMENT</span>
+          <h2 class="section-title">The Seasonal Cafe Menu</h2>
+          <p class="section-sub">Freshly brewed and cooked to order. Gluten-free and plant milk substitutes available on request.</p>
+
+          <!-- Category Filters -->
+          <div class="menu-nav-tabs" role="tablist">
+            <button class="menu-tab active" data-category="espresso" role="tab" aria-selected="true">Specialty Espresso</button>
+            <button class="menu-tab" data-category="pourover" role="tab" aria-selected="false">Pour Over & Drip</button>
+            <button class="menu-tab" data-category="bakery" role="tab" aria-selected="false">Artisan Bakery</button>
+            <button class="menu-tab" data-category="kitchen" role="tab" aria-selected="false">Brunch & Kitchen</button>
+          </div>
+        </div>
+
+        <div class="menu-items-grid" id="menuItemsContainer">
+          <!-- Content dynamically rendered and filtered via JS -->
+        </div>
+
+        <div class="menu-footer-note">
+          <p>* All espresso beverages prepared with double shot specialty beans. Taxes extra as applicable.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Space / Visual Gallery -->
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="section-tag">ATMOSPHERE</span>
+          <h2 class="section-title">Designed for Calm and Connection</h2>
+          <p class="section-sub">Natural light, quiet acoustics, warm timbers, and the hum of grinding beans.</p>
+        </div>
+
+        <div class="gallery-mosaic">
+          <div class="gallery-item item-large">
+            <img src="assets/hero.jpg" alt="LUMA cafe seating and counter" loading="lazy">
+            <div class="gallery-caption">Main Sunlit Roastery Room</div>
+          </div>
+          <div class="gallery-item item-tall">
+            <img src="assets/dish.jpg" alt="Brunch table spread at LUMA" loading="lazy">
+            <div class="gallery-caption">Avocado Tartine & Flat White</div>
+          </div>
+          <div class="gallery-item item-wide">
+            <img src="assets/bakery.jpg" alt="Fresh morning bakery counter" loading="lazy">
+            <div class="gallery-caption">Baked Fresh Every Morning</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visit & Hours Section -->
+    <section class="visit-section" id="visit">
+      <div class="container visit-grid">
+        <div class="visit-info">
+          <span class="section-tag">FIND US</span>
+          <h2 class="section-title">Visit LUMA in Chennai</h2>
+          <p class="section-body">
+            Located in a quiet leafy lane of Alwarpet, offering both an indoor air-conditioned sanctuary and an open pet-friendly garden courtyard.
+          </p>
+
+          <div class="info-blocks">
+            <div class="info-card">
+              <div class="info-icon">📍</div>
+              <div>
+                <strong>Location</strong>
+                <p>42 Olive Grove Lane, Off TTK Road<br>Alwarpet, Chennai, Tamil Nadu 600018</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">⏰</div>
+              <div>
+                <strong>Hours of Operation</strong>
+                <p>Monday – Friday: 7:30 AM — 10:00 PM<br>Saturday – Sunday: 7:00 AM — 10:30 PM<br><em>Kitchen closes 30 mins before closing</em></p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">✉️</div>
+              <div>
+                <strong>Inquiries & Bookings</strong>
+                <p>hello@lumacoffee.demo<br>Valet parking available on weekends</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reservation-preview-box">
+          <div class="box-inner">
+            <span class="box-badge">TABLE BOOKINGS</span>
+            <h3>Reserve Your Table</h3>
+            <p>Join us for breakfast, unhurried brunch, or evening pour-overs. Walk-ins always welcome for coffee & pastry bar.</p>
+            <form id="inlineReservationForm" class="reserve-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="resName">Full Name</label>
+                  <input type="text" id="resName" required placeholder="Aarav Mehta">
+                </div>
+                <div class="form-group">
+                  <label for="resGuests">Guests</label>
+                  <select id="resGuests">
+                    <option value="1">1 Person</option>
+                    <option value="2" selected>2 People</option>
+                    <option value="4">4 People</option>
+                    <option value="6">6+ People</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="resDate">Preferred Date</label>
+                  <input type="date" id="resDate" required>
+                </div>
+                <div class="form-group">
+                  <label for="resTime">Time Slot</label>
+                  <select id="resTime">
+                    <option>8:30 AM (Breakfast)</option>
+                    <option>10:30 AM (Morning Brew)</option>
+                    <option selected>12:30 PM (Brunch)</option>
+                    <option>3:30 PM (Afternoon Work)</option>
+                    <option>6:30 PM (Evening Sunset)</option>
+                  </select>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary full-width">Request Reservation</button>
+              <p class="form-disclaimer">Interactive Demo • This fictional showcase does not process real bookings.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Table Reservation Modal -->
+  <div class="modal-overlay" id="reserveModal" aria-hidden="true" role="dialog">
+    <div class="modal-card">
+      <button class="modal-close" id="closeModalBtn" aria-label="Close dialog">&times;</button>
+      <span class="modal-tag">DEMO SHOWCASE • TABLE RESERVATION</span>
+      <h3 class="modal-title">Book a Table</h3>
+      <p class="modal-sub">Experience artisanal coffee and wholesome brunch in our serene space. (Interactive demonstration)</p>
+
+      <form id="modalReservationForm" class="modal-form">
+        <div class="form-group">
+          <label for="mName">Your Name</label>
+          <input type="text" id="mName" required placeholder="e.g. Priya Sundaram">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="mPhone">Phone Number</label>
+            <input type="tel" id="mPhone" required placeholder="+91 98765 43210">
+          </div>
+          <div class="form-group">
+            <label for="mGuests">Party Size</label>
+            <select id="mGuests">
+              <option value="2">2 Guests</option>
+              <option value="3">3 Guests</option>
+              <option value="4">4 Guests</option>
+              <option value="6">6+ Guests</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="mDate">Date</label>
+            <input type="date" id="mDate" required>
+          </div>
+          <div class="form-group">
+            <label for="mTime">Seating Slot</label>
+            <select id="mTime">
+              <option>9:00 AM</option>
+              <option>11:00 AM</option>
+              <option selected>1:00 PM</option>
+              <option>4:00 PM</option>
+              <option>7:00 PM</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="mNotes">Special Requests (Optional)</label>
+          <input type="text" id="mNotes" placeholder="Dietary restrictions, patio seating, birthday">
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Confirm Demo Reservation</button>
+      </form>
+      <div id="reservationSuccess" class="reservation-success hidden">
+        <div class="success-icon">✓</div>
+        <h4>Demo Reservation Submitted!</h4>
+        <p>This is an interactive demonstration showcase engineered by <strong>VYRA Web Studio</strong>. No real table was booked.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="luma-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="f-logo">LUMA</span>
+        <span class="f-sub">COFFEE & KITCHEN</span>
+        <p>A specialty roastery and neighborhood bakery created for slow, meaningful moments in Chennai.</p>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Navigation</h4>
+        <a href="#about">Our Story</a>
+        <a href="#menu">Seasonal Menu</a>
+        <a href="#featured">Signatures</a>
+        <a href="#gallery">The Space</a>
+        <a href="#visit">Hours & Map</a>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Hours</h4>
+        <p>Mon – Fri: 7:30 AM – 10:00 PM</p>
+        <p>Sat – Sun: 7:00 AM – 10:30 PM</p>
+        <p>42 Olive Grove Lane, Alwarpet</p>
+      </div>
+
+      <div class="footer-attribution">
+        <span class="vyra-tag">BUILT BY VYRA</span>
+        <p>This fictional brand website is an actual, working portfolio demonstration engineered by <strong>VYRA Web Studio</strong>.</p>
+        <a href="../../index.html" class="footer-return-link">
+          Explore VYRA Studio Portfolio →
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container bottom-row">
+        <p>© 2026 LUMA Coffee & Kitchen. All rights reserved. Concept demonstration website.</p>
+        <p>Engineered by <a href="../../index.html">VYRA Web Studio</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
